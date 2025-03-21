@@ -1,0 +1,90 @@
+body, main {
+    background-color: whitesmoke;
+    /** consistent color background */
+}
+
+header {
+    font-size: 35px;
+    font-family: sans-serif;
+}
+
+section ul {
+    font-size: 25px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: skyblue;
+    position: sticky;
+    top: 0;
+    /** navbar style */
+}
+
+section li {
+    float: left;
+}
+
+section li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    /** navbar coloring */
+}
+
+section li a:hover {
+    background-color: #79BAEC;
+    /** adds minor interactivity when user is about to select a page */
+}
+
+section .active {
+    background-color: #6495ED;
+    /** darker blue for when page is currently visited */
+}
+
+footer {
+    border-top: 3px solid black;
+    /** creates a footer for all pages*/
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 200px;
+
+}
+
+fieldset {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+footer {
+    border-top: 3px solid black;
+}
+
+.considerThis {
+    display: flex;
+    background-color: whitesmoke;
+    /**creates a div for desired info*/
+  }
+  
+.considerThis > div {
+    background-color: #c3cff8;
+    width: 50%;
+    font-size: 20px;
+    margin: 10px;
+    padding: 20px;
+    /**adding background color and consistency to the div*/
+}
+
+#remind {
+    font-size: 40px;
+    /**created to ensure this sentence is very noticeable*/
+}
