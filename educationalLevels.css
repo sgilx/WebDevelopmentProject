@@ -1,0 +1,102 @@
+body, main {
+    background-color: whitesmoke;
+    /** consistent color background */
+}
+
+header {
+    font-size: 35px;
+    font-family: sans-serif;
+}
+
+section ul {
+    font-size: 25px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: skyblue;
+    position: sticky;
+    top: 0;
+    /** navbar style */
+}
+
+section li {
+    float: left;
+}
+
+section li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    /** navbar coloring */
+}
+
+section li a:hover {
+    background-color: #79BAEC;
+    /** adds minor interactivity when user is about to select a page */
+}
+
+section .active {
+    background-color: #6495ED;
+    /** darker blue for when page is currently visited */
+}
+
+footer {
+    border-top: 3px solid black;
+    /** creates a footer for all pages*/
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+h2 {
+    text-align: center;
+}
+
+main h2 {
+    text-align: center;
+    font-size: 35px;
+}
+
+legend {
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#rightSide {
+    height: 200px;
+    width: 200px;
+}
+
+.nclexSec {
+    display: flex;
+    background-color: whitesmoke;
+}
+
+.nclexSec > div {
+    background-color: #c3cff8;
+    width: 50%;
+    font-size: 20px;
+    margin: 10px;
+    padding: 20px;
+}
+
+.educationSec {
+    display: flex;
+    background-color: whitesmoke;
+}
+
+.educationSec > div {
+    background-color: #c3cff8;
+    width: 50%;
+    font-size: 20px;
+    margin: 10px;
+    padding: 20px;
+}
